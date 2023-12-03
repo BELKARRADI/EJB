@@ -34,7 +34,6 @@ final Context context = new InitialContext(jndiProperties);
 	        Ville ville_id1 = daoVille.findById(1);
 //System.out.print(ville_id1);
 IDaoRemote<Hotel> daoHotel = lookUpEmployeRemoteHotel();
-//daoHotel.create(new Hotel("hotel_1", "adresse_1", "0606060606",ville_id1));
 System.out.println("---------------------------------------------------------------------------------------------------------------------");
 
 System.out.println("Affichage des hotels :");
